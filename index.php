@@ -1,3 +1,8 @@
 <?php
+
+use APP\config\Database;
+
 require_once('vendor/autoload.php');
-echo 'ghbdtn';
+$database = new Database();
+$db = $database->getConnection();
+var_dump($db);

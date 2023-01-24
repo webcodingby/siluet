@@ -3,5 +3,8 @@
     "psr-4": {
       "APP\\": "app/"
     }
+  },
+  "require": {
+    "ext-pdo": "*"
   }
 }
